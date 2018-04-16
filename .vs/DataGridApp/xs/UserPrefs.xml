@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{C33675B3-EE08-415D-84EC-27E45E22EEB4}|Default">
+  <MonoDevelop.Ide.ItemProperties.DataGridApp AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_5_API_26" AndroidDesignerPreferredTheme="MyCustomTheme" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataGridApp/Resources/values/styles.xml">
+    <Files>
+      <File FileName="DataGridApp/Resources/values/styles.xml" Line="8" Column="13" />
+      <File FileName="DataGridApp/Resources/values/colors.xml" Line="10" Column="13" />
+      <File FileName="DataGridApp/Properties/AndroidManifest.xml" Line="8" Column="18" />
+      <File FileName="DataGridApp/Resources/AboutResources.txt" Line="1" Column="1" />
+      <File FileName="DataGridApp/MainActivity.cs" Line="52" Column="52" />
+      <File FileName="DataGridApp/Adapters/CryptoAdapter.cs" Line="59" Column="18" />
+      <File FileName="DataGridApp/Resources/values/Strings.xml" Line="8" Column="13" />
+      <File FileName="DataGridApp/DraggableListView.cs" Line="227" Column="23" />
+      <File FileName="DataGridApp/Models/Crypto.cs" Line="5" Column="6" />
+      <File FileName="DataGridApp/DetailDialog.cs" Line="50" Column="21" />
+      <File FileName="DataGridApp/Resources/Resource.designer.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

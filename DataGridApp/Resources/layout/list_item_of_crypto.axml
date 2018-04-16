@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@android:color/white"
+    android:id="@+id/layoutOneCrypto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:id="@+id/layoutOneCrypto"
+        android:background="@color/material_grey_300"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp">
+        <TextView
+            android:text="#"
+            android:layout_width="20sp"
+            android:layout_height="match_parent"
+            android:layout_margin="1px"
+            android:id="@+id/txtRank_OneCrypto"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:background="@android:color/white" />
+        <TextView
+            android:text="name"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="1px"
+            android:layout_marginRight="1px"
+            android:id="@+id/txtName_OneCrypto"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:background="@android:color/white" />
+        <TextView
+            android:text="Market Cap"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="1px"
+            android:layout_marginRight="1px"
+            android:id="@+id/txtMarketCap_OneCrypto"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="12sp"
+            android:background="@android:color/white"
+            android:gravity="center" />
+        <TextView
+            android:text="Price"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="1px"
+            android:layout_marginRight="1px"
+            android:id="@+id/txtPrice_OneCrypto"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="12sp"
+            android:background="@android:color/white"
+            android:gravity="center" />
+        <TextView
+            android:text="Volume"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="1px"
+            android:layout_marginRight="1px"
+            android:id="@+id/txtVolume_OneCrypto"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="12sp"
+            android:background="@android:color/white"
+            android:gravity="center" />
+        <TextView
+            android:text="Supply"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="1px"
+            android:layout_marginRight="1px"
+            android:id="@+id/txtCirSupply_OneCrypto"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="12sp"
+            android:background="@android:color/white"
+            android:gravity="center" />
+        <Spinner
+            android:id="@+id/spnChange_OneCrypto"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"
+            android:layout_marginBottom="1px"
+            android:layout_marginRight="1px"
+            android:gravity="center"
+            android:focusable="false"
+            android:background="@android:color/white"
+            android:textSize="12sp"
+            android:entries="@array/change_arrays" />
+    </LinearLayout>
+</LinearLayout>
